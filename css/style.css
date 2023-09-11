@@ -177,3 +177,41 @@ h3 {
   }
 }
 
+/* Contenedor nosotros */
+
+.nosotros__contenedor {
+  /* width: 70% */
+}
+
+.nosotros {
+  display: grid;
+  grid-template-rows: auto;
+  padding: 1rem;
+  
+
+}
+@media (min-width:300px ) {
+  .nosotros__imagen {
+    grid-row: 1 / 2;
+  }
+
+  }
+
+
+  
+    
+
+/* @media (min-width: 768px) {
+  .nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+
+.nosotros__parrafo {
+ 
+}
+
+.nosotros__imagen {
+
+}

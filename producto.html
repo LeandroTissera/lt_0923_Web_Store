@@ -2,45 +2,53 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Web Store</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Web Store</title>
 </head>
 
 <body>
-    <header class="header">
-        <a href="index.html">
-            <img class="header__logo" src=" ./imagenes/logo.png" alt="Logotipo">
-        </a>
-    </header>
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src=" ./imagenes/logo.png" alt="Logotipo">
+    </a>
+  </header>
 
-    <nav class="navegacion">
-        <a class="navegacion__enlace navegacion__enlace--activo" href="./index.html">Tienda</a>
-        <a class="navegacion__enlace" href="./nosotros.html">Nosotros</a>
-    </nav>
+  <nav class="navegacion">
+    <a class="navegacion__enlace navegacion__enlace--activo" href="./index.html">Tienda</a>
+    <a class="navegacion__enlace" href="./nosotros.html">Nosotros</a>
+  </nav>
 
-    <main class="contenedor">
-        <h1>React JS</h1>
+  <main class="contenedor">
+    <h1>React JS</h1>
 
-        <div class="camisa">
-            <img class="camisa__imagen" src="./imagenes/3.jpg" alt="Imagen del Producto">
-            <div class="camisa__contenido">
-                <p>Recientemente con software de autoedición, como por ejemplo Aldus PageMake.</p>
-                <form class="formulario">
-                    
-                </form>
-            </div>
-        </div>
-    </main>
+    <div class="camisa">
+      <img class="camisa__imagen" src="./imagenes/3.jpg" alt="Imagen del Producto">
+      <div class="camisa__contenido">
+        <p>Neque porro quisquam est, consectetur, adipisci velit, sed quia not ut labore et dolore magnam aliquam quaerat volup.</p>
 
-    <footer class="footer">
-        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
-    </footer>
+        <form class="formulario">
+          <select class="formulario__campo">
+            <option disabled selected>-- Selecciona Talla --</option>
+            <option>Pequeña</option>
+            <option>Madiana</option>
+            <option>Grande</option>
+          </select>
+          <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+          <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
+  </footer>
 
 </body>
 
